@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #b9a8c4;
+    background: #E5DED3;
     font-family: 'Arial', sans-serif;
     min-height: 100vh;
 }
@@ -16,9 +16,9 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 8px 7px;
-    background: linear-gradient(to right, #F0C2BE, #6C557A);
+    background: linear-gradient(to right, #F4E1B6, #B6A999);
     height: 65px;
-    box-shadow: 0 3px 5px #76357c;
+    box-shadow: 0 3px 5px #B6A999;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 55px;
     position: fixed;
@@ -41,7 +41,7 @@ body {
     height: 100vh;
     width: 200px;
     position: fixed;
-    background: linear-gradient(to bottom, #ffffff, #f0c2be, #6C557A);
+    background: linear-gradient(to bottom, #F5F6F7, #CADBEC, #B6A999);
     transition: 0.5s ease;
     transform: translateX(-200px);
     font-size: 20px;
@@ -52,7 +52,7 @@ body {
 }
 
 h1.menu_titulo {
-    color: #6C557A;
+    color: #B6A999;
     font-weight: 800;
     text-align: right;
     padding: 10px 0;
@@ -71,7 +71,7 @@ ul li {
 }
 
 ul li a {
-    color: #6C557A;
+    color: #B6A999;
     font-weight: 500;
     padding: 9px 15px;
     display: flex;
@@ -83,18 +83,18 @@ ul li a {
 }
 
 ul li:hover a {
-    color: #f0c2be;
+    color: #CADBEC;
     background-color: #000000;
 }
 
 ul li a i {
-    color: #6C557A;
+    color: #B6A999;
     min-width: 25px;
     text-align: center;
 }
 
 ul li:hover a i {
-    color: #f0c2be;
+    color: #CADBEC;
 }
 
 .lineas-check {
@@ -110,15 +110,15 @@ ul li:hover a i {
     z-index: 1001;
     cursor: pointer;
     border-radius: 5px;
-    background-color: #E6D6AD;
-    box-shadow: 0 0 10px #6C557A;
+    background-color: #F4E1B6;
+    box-shadow: 0 0 10px #B6A999;
 }
 
 .Lineas .common {
     position: absolute;
     height: 2px;
     width: 20px;
-    background-color: #6C557A;
+    background-color: #B6A999;
     border-radius: 50px;
     transition: 0.3s ease;
 }
@@ -162,7 +162,7 @@ input:checked ~ .Lineas .middle_line {
 
 input:checked ~ .Menu {
     transform: translateX(0);
-    box-shadow: 0 0 15px #6C557A;
+    box-shadow: 0 0 15px #B6A999;
 }
 
 /* CONTENIDO PRINCIPAL */
@@ -260,7 +260,7 @@ input:checked ~ .Menu {
     position: absolute;
     top: 10px;
     right: 10px;
-    background: #6C557A;
+    background: #B6A999;
     color: white;
     border: none;
     border-radius: 50%;
@@ -276,7 +276,7 @@ input:checked ~ .Menu {
 }
 
 .edit-btn:hover {
-    background: #543d5e;
+    background: #9a8d7e;
     transform: scale(1.1);
 }
 
@@ -287,7 +287,7 @@ input:checked ~ .Menu {
     right: 30px;
     width: 60px;
     height: 60px;
-    background: #FF6B6B;
+    background: #CADBEC;
     border: none;
     border-radius: 50%;
     color: white;
@@ -339,7 +339,7 @@ input:checked ~ .Menu {
     font-weight: bold;
     margin-bottom: 20px;
     text-align: center;
-    color: #6C557A;
+    color: #B6A999;
 }
 
 .form-group {
@@ -351,14 +351,14 @@ input:checked ~ .Menu {
     margin-bottom: 5px;
     font-weight: bold;
     font-size: 14px;
-    color: #6C557A;
+    color: #B6A999;
 }
 
 .form-group input[type="text"],
 .form-group input[type="number"] {
     width: 100%;
     padding: 10px;
-    border: 2px solid #F0C2BE;
+    border: 2px solid #CADBEC;
     border-radius: 8px;
     font-size: 14px;
 }
@@ -375,15 +375,15 @@ input:checked ~ .Menu {
     align-items: center;
     gap: 10px;
     padding: 10px;
-    border: 2px solid #F0C2BE;
+    border: 2px solid #CADBEC;
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s;
 }
 
 .checkbox-option:hover {
-    background: rgba(240, 194, 190, 0.2);
-    border-color: #6C557A;
+    background: rgba(202, 219, 236, 0.2);
+    border-color: #B6A999;
 }
 
 .checkbox-option input[type="checkbox"] {
@@ -425,12 +425,12 @@ input:checked ~ .Menu {
 }
 
 .btn-submit {
-    background: #6C557A;
+    background: #B6A999;
     color: white;
 }
 
 .btn-delete {
-    background: #FF6B6B;
+    background: #CADBEC;
     color: white;
 }
 
