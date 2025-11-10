@@ -61,7 +61,7 @@ function App() {
         <Route path="/registro" element={<Registro />} />
 
          {/* RegistroVen */}
-        <Route path="/registroventas" element={<Ventas />} />
+        <Route path="/registro-ventas" element={<Ventas />} />
 
 
 
